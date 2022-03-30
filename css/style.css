@@ -1,0 +1,121 @@
+/* -----------------------MENU------------------------ */
+.menu {
+    position: relative;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.menu img {
+    margin: 0 auto;
+    display: block;
+}
+.menu__inner {
+    height: 42px;
+    background-color: #FF931E;
+
+}
+/* -----------------------HOME------------------------ */
+.home {
+    padding: 212px 25px;
+}
+.home__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.home__nav {
+    margin: 0px 0px 88px 0px;
+    width: 216px;
+}
+.nav__ul {
+    display: flex;
+    justify-content: space-between;
+    width: 216px;
+}
+.nav__ul-li {
+    display: block;
+}
+.ul__li-a2 {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.ul__li-a1 {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #C4C4C4;
+}
+.home__h2 {
+    margin: 0 0 24px 0;
+    
+}
+.home__p {
+    font-size: 16px;
+    margin: 0 0 56px 0;
+    line-height: 156%;
+    display: block;
+    width: 468px;
+}
+.home-inner__right {
+    width: 400;
+    position: relative;
+}
+.home-inner__right img {
+    position: absolute;
+}
+.home-inner__right .home__img2 {
+    top: 135px;
+    left: -25px;
+    z-index: -1;
+}
+/* -----------------------LEARN------------------------ */
+.learn {
+    padding: 0 0 144px 0;
+}
+.learn__h2 {
+    margin: 0 0 67px 0;
+}
+.learn__footer {
+    display: flex;
+    justify-content: space-between;
+}
+.learn-item__img {
+    background: url(../img/learn/blue__background.png);
+    margin: 0 0 29px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+}
+.learn-item p {
+    display: block;
+}
+.learn-item__p1 {
+    width: 200px;
+}
+.learn-item__p2 {
+    width: 174px;
+}
+.learn-item__p3 {
+    width: 234px;
+}
+.learn-item__p4 {
+    width: 217px;
+}
+/* -----------------------BENEFIRS------------------------ */
+.benefits {
+    padding: 0 0 6px 0;
+}
+.container {
+}
+.benefits__h2 {
+}
+.benefits__ul {
+}
+.benefits__li {
+}
